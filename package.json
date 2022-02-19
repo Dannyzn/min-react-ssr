@@ -1,0 +1,39 @@
+{
+  "name": "min-react-ssr",
+  "version": "0.1.0",
+  "description": "从0到1实现一个服务端渲染的例子",
+  "main": "index.js",
+  "scripts": {
+    "start": "yarn build && node index.js",
+    "build": "webpack --config webpack.config.js"
+  },
+  "dependencies": {
+    "@babel/register": "^7.8.6",
+    "express": "^4.17.1",
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0",
+    "react-redux": "^7.2.0",
+    "redux": "^4.0.5",
+    "redux-thunk": "^2.3.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.8.7",
+    "@babel/preset-env": "^7.8.7",
+    "@babel/preset-react": "^7.8.3",
+    "babel-loader": "^8.0.6",
+    "webpack": "^4.42.0",
+    "webpack-cli": "^3.3.11"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dannyzn/min-react-ssr.git"
+  },
+  "keywords": [],
+  "author": "酒窝 <694518723@qq.com> (https://github.com/Dannyzn)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Dannyzn/min-react-ssr/issues"
+  },
+  "homepage": "https://github.com/Dannyzn/min-react-ssr#readme"
+}
